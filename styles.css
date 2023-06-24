@@ -1,0 +1,41 @@
+/* Sticky navigation bar */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+/* Table styles */
+.table{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.book-table{
+    margin: 3% 5%;
+}
+
+.form-container{
+    width: 100%;
+    margin: 5% 5%;
+}
